@@ -482,6 +482,13 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Dump fingerprints
   script.Print("Target: %s" % target_fp)
 
+  script.Print("  ___    __    __  __  ___    __    ___  ____  ___  ")
+  script.Print(" / __)  /__\  (  )(  )/ __)  /__\  / __)( ___)/ __) ")
+  script.Print(" \__ \ /(__)\  )(__)( \__ \ /(__)\( (_-. )__) \__ \ ")
+  script.Print(" (___/(__)(__)(______)(___/(__)(__)\___/(____)(___/ ")
+  script.Print(" ")
+  script.Print(" Sausages Project - Oreo ")
+  script.Print(" ")
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
 
