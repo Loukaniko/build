@@ -497,19 +497,6 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("*********************************************");
-  script.Print("*       ##### ####****   ########****       *")
-  script.Print("*     ############**** ##########******     *")
-  script.Print("*    ####     ####****#####  ****  *****    *")
-  script.Print("*    ###       ###****####   ****   ****    *")
-  script.Print("*    ####     ####****#####  ****  *****    *")
-  script.Print("*     ############**** ##########******     *")
-  script.Print("*       ##### ####****   ########****       *")
-  script.Print("*                            ****           *")
-  script.Print("*                            ****           *")
-  script.Print("* www.aicp-rom.com   -   Get your flash ON  *")
-  script.Print("*********************************************");
-
 
   build = GetBuildProp("ro.aicp.version", OPTIONS.info_dict)
   if os.getenv("AICP_BUILDTYPE") is not None:
